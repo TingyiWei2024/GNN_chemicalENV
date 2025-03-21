@@ -1,0 +1,35 @@
+[I 2025-03-19 07:42:32,774] A new study created in memory with name: no-name-af734aac-f0db-401a-8ab0-2e76bf4ca7ec
+[I 2025-03-19 07:48:28,956] Trial 0 finished with value: 0.7720942578231359 and parameters: {'learning_rate': 0.001, 'dropout': 0.1, 'num_layers': 2, 'lambda_bde': 0.014082796789764514}. Best is trial 0 with value: 0.7720942578231359.
+[I 2025-03-19 08:08:02,115] Trial 1 finished with value: 0.5800736040216152 and parameters: {'learning_rate': 0.0001, 'dropout': 0.1, 'num_layers': 5, 'lambda_bde': 0.007564288225878355}. Best is trial 1 with value: 0.5800736040216152.
+[I 2025-03-19 08:22:23,473] Trial 2 finished with value: 0.08813361142644865 and parameters: {'learning_rate': 0.003, 'dropout': 0.5, 'num_layers': 2, 'lambda_bde': 0.00015152268718576453}. Best is trial 2 with value: 0.08813361142644865.
+[I 2025-03-19 08:41:13,362] Trial 3 finished with value: -7.987894184015859 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.07329757353707629}. Best is trial 3 with value: -7.987894184015859.
+[I 2025-03-19 09:00:25,862] Trial 4 finished with value: 0.15010713040586407 and parameters: {'learning_rate': 0.003, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.0008012994043277334}. Best is trial 3 with value: -7.987894184015859.
+[I 2025-03-19 09:00:41,037] Trial 5 pruned. 
+[I 2025-03-19 09:00:46,028] Trial 6 pruned. 
+[I 2025-03-19 09:00:52,738] Trial 7 pruned. 
+[I 2025-03-19 09:00:57,373] Trial 8 pruned. 
+[I 2025-03-19 09:01:02,894] Trial 9 pruned. 
+[I 2025-03-19 09:33:12,009] Trial 10 finished with value: -5.121436940215525 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 6, 'lambda_bde': 0.0630092688642983}. Best is trial 3 with value: -7.987894184015859.
+[I 2025-03-19 09:57:20,874] Trial 11 finished with value: -7.3384672151052 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 6, 'lambda_bde': 0.07111521099518955}. Best is trial 3 with value: -7.987894184015859.
+[I 2025-03-19 10:20:22,254] Trial 12 finished with value: -11.02424219572048 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 6, 'lambda_bde': 0.08247270400826244}. Best is trial 12 with value: -11.02424219572048.
+[I 2025-03-19 10:20:29,443] Trial 13 pruned. 
+[I 2025-03-19 10:40:11,696] Trial 14 finished with value: -9.791326369801414 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.07890946245113152}. Best is trial 12 with value: -11.02424219572048.
+[I 2025-03-19 10:40:18,318] Trial 15 pruned. 
+[I 2025-03-19 10:40:26,199] Trial 16 pruned. 
+[I 2025-03-19 11:06:05,047] Trial 17 finished with value: -16.940507083091937 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.09732377443330234}. Best is trial 17 with value: -16.940507083091937.
+[I 2025-03-19 11:06:12,965] Trial 18 pruned. 
+[I 2025-03-19 11:06:18,725] Trial 19 pruned. 
+[I 2025-03-19 11:06:24,959] Trial 20 pruned. 
+[I 2025-03-19 11:26:57,996] Trial 21 finished with value: -10.274019597736288 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.08025531871339744}. Best is trial 17 with value: -16.940507083091937.
+[I 2025-03-19 11:43:24,013] Trial 22 finished with value: -15.753781265302575 and parameters: {'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 5, 'lambda_bde': 0.0945705560618351}. Best is trial 17 with value: -16.940507083091937.
+[I 2025-03-19 11:43:32,136] Trial 23 pruned. 
+[I 2025-03-19 11:43:37,950] Trial 24 pruned. 
+[I 2025-03-19 11:43:44,703] Trial 25 pruned. 
+[I 2025-03-19 12:00:01,994] Trial 26 finished with value: -14.493055297909942 and parameters: {'learning_rate': 0.0003, 'dropout': 0.1, 'num_layers': 6, 'lambda_bde': 0.09148821166581475}. Best is trial 17 with value: -16.940507083091937.
+[I 2025-03-19 12:00:08,535] Trial 27 pruned. 
+[I 2025-03-19 12:00:15,433] Trial 28 pruned. 
+[I 2025-03-19 12:00:20,663] Trial 29 pruned. 
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+[33mPress CTRL+C to quit[0m
+slurmstepd: error: *** JOB 57199938 ON cdr293 CANCELLED AT 2025-03-19T19:32:14 DUE TO TIME LIMIT ***

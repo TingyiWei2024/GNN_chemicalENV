@@ -1,0 +1,72 @@
+Directory exists: /home/tingyi/GNN_chemicalENV-main/GNN molecules/graph_pickles/molecules
+Files in directory: ['gpickle_graph_13.pkl', 'gpickle_graph_15.pkl', 'gpickle_graph_1.pkl', 'gpickle_graph_5.pkl', 'gpickle_graph_0.pkl', 'gpickle_graph_17.pkl', 'gpickle_graph_4.pkl', 'gpickle_graph_2.pkl', 'gpickle_graph_6.pkl', 'gpickle_graph_7.pkl', 'gpickle_graph_9.pkl', 'gpickle_graph_12.pkl', 'gpickle_graph_10.pkl', 'gpickle_graph_14.pkl', 'gpickle_graph_8.pkl', 'gpickle_graph_3.pkl', 'gpickle_graph_16.pkl', 'gpickle_graph_11.pkl', 'gpickle_graph_18.pkl', 'gpickle_graph_19.pkl']
+
+=== Optuna Study Results ===
+Best trial number: 17
+Best trial value (loss): -16.9405
+Best hyperparameters:
+  learning_rate: 0.001
+  dropout: 0.5
+  num_layers: 5
+  lambda_bde: 0.09732377443330234
+
+--- Retrain Fold 1 with Best Hyperparams ---
+[Fold 1 Epoch 10] Train Loss: -15.1726 | Val Loss: -15.6863
+[Fold 1 Epoch 20] Train Loss: -15.9976 | Val Loss: -16.5769
+[Fold 1 Epoch 30] Train Loss: -16.2030 | Val Loss: -16.9248
+[Fold 1 Epoch 40] Train Loss: -16.3633 | Val Loss: -16.9592
+Early stopping triggered at epoch 46
+Evaluating fold 1 ...
+R²: -413.5970
+RMSE: 4.8266
+
+--- Retrain Fold 2 with Best Hyperparams ---
+[Fold 2 Epoch 10] Train Loss: -15.7586 | Val Loss: -15.6803
+[Fold 2 Epoch 20] Train Loss: -16.2584 | Val Loss: -15.9523
+[Fold 2 Epoch 30] Train Loss: -16.3033 | Val Loss: -16.6102
+[Fold 2 Epoch 40] Train Loss: -16.6167 | Val Loss: -16.6305
+Early stopping triggered at epoch 50
+Evaluating fold 2 ...
+R²: -227.2382
+RMSE: 4.8821
+
+--- Retrain Fold 3 with Best Hyperparams ---
+[Fold 3 Epoch 10] Train Loss: -15.3337 | Val Loss: -16.3097
+[Fold 3 Epoch 20] Train Loss: -15.9728 | Val Loss: -16.8214
+Early stopping triggered at epoch 26
+Evaluating fold 3 ...
+R²: -308.9429
+RMSE: 4.6517
+
+--- Retrain Fold 4 with Best Hyperparams ---
+[Fold 4 Epoch 10] Train Loss: -14.8352 | Val Loss: -15.6875
+[Fold 4 Epoch 20] Train Loss: -16.0120 | Val Loss: -16.7572
+[Fold 4 Epoch 30] Train Loss: -16.2684 | Val Loss: -16.6155
+[Fold 4 Epoch 40] Train Loss: -16.4313 | Val Loss: -16.5309
+Early stopping triggered at epoch 45
+Evaluating fold 4 ...
+R²: -227.5239
+RMSE: 4.5293
+
+--- Retrain Fold 5 with Best Hyperparams ---
+[Fold 5 Epoch 10] Train Loss: -15.3137 | Val Loss: -15.1738
+[Fold 5 Epoch 20] Train Loss: -16.0545 | Val Loss: -17.1853
+[Fold 5 Epoch 30] Train Loss: -16.0289 | Val Loss: -16.9994
+Early stopping triggered at epoch 39
+Evaluating fold 5 ...
+R²: -324.8785
+RMSE: 4.7522
+
+--- Final Cross-Validation Summary with Best Hyperparams ---
+Fold 1: R² = -413.5970, RMSE = 4.8266
+Fold 2: R² = -227.2382, RMSE = 4.8821
+Fold 3: R² = -308.9429, RMSE = 4.6517
+Fold 4: R² = -227.5239, RMSE = 4.5293
+Fold 5: R² = -324.8785, RMSE = 4.7522
+
+Average R²: -300.4361 ± 69.4972
+Average RMSE: 4.7284 ± 0.1260
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'gnn_mix_lc01_bde'
+ * Debug mode: off

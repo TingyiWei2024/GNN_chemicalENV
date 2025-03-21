@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/scratch/tingyi/myproject/gnn_mix_lc01_bde.py", line 418, in <module>
+    data = pd.read_excel(env_file, engine='openpyxl').dropna(subset=['degradation_rate'])
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 457, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 1419, in __init__
+    self._reader = self._engines[engine](self._io, storage_options=storage_options)
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/io/excel/_openpyxl.py", line 525, in __init__
+    super().__init__(filepath_or_buffer, storage_options=storage_options)
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 508, in __init__
+    self.handles = get_handle(
+  File "/home/tingyi/miniconda3/envs/gnn_env/lib/python3.9/site-packages/pandas/io/common.py", line 798, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\2025 energing\\PYTHON\\GNN_chemicalENV-main\\GNN molecules\\graph_pickles\\dataset02.xlsx'
+[I 2025-03-17 12:13:29,342] A new study created in memory with name: no-name-3e735230-c8e0-4ef8-9009-8de3ce460548
+[I 2025-03-17 12:36:33,329] Trial 0 finished with value: -63.998672102166964 and parameters: {'hidden_dim': 32, 'learning_rate': 0.0001, 'dropout': 0.5, 'num_layers': 5, 'weight_decay': 0.0007778402952715089, 'lambda_energy': 0.0512483685427014}. Best is trial 0 with value: -63.998672102166964.
+[I 2025-03-17 12:46:28,071] Trial 1 finished with value: 0.21447881534346433 and parameters: {'hidden_dim': 40, 'learning_rate': 0.003, 'dropout': 0.1, 'num_layers': 2, 'weight_decay': 0.0002442983510009088, 'lambda_energy': 0.0004903244305000866}. Best is trial 0 with value: -63.998672102166964.
+[I 2025-03-17 12:57:14,308] Trial 2 finished with value: -22.474368473711564 and parameters: {'hidden_dim': 32, 'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 4, 'weight_decay': 6.111591834016308e-05, 'lambda_energy': 0.030228346430019218}. Best is trial 0 with value: -63.998672102166964.
+[I 2025-03-17 13:09:59,949] Trial 3 finished with value: 0.10642941676995961 and parameters: {'hidden_dim': 48, 'learning_rate': 0.001, 'dropout': 0.1, 'num_layers': 2, 'weight_decay': 0.00043477190709093646, 'lambda_energy': 0.0001309568452048068}. Best is trial 0 with value: -63.998672102166964.
+[I 2025-03-17 13:18:34,849] Trial 4 finished with value: 0.7911687378470604 and parameters: {'hidden_dim': 32, 'learning_rate': 0.001, 'dropout': 0.5, 'num_layers': 3, 'weight_decay': 5.3871923661450154e-05, 'lambda_energy': 0.0045285508428396445}. Best is trial 0 with value: -63.998672102166964.
+[I 2025-03-17 13:18:41,474] Trial 5 pruned. 
+[I 2025-03-17 13:36:15,140] Trial 6 finished with value: -72.59788971297539 and parameters: {'hidden_dim': 16, 'learning_rate': 0.0001, 'dropout': 0.5, 'num_layers': 3, 'weight_decay': 3.8007287333625985e-05, 'lambda_energy': 0.05376110990755247}. Best is trial 6 with value: -72.59788971297539.
+[I 2025-03-17 13:36:17,512] Trial 7 pruned. 
+[I 2025-03-17 13:36:20,730] Trial 8 pruned. 
+[I 2025-03-17 13:36:26,451] Trial 9 pruned. 
+[I 2025-03-17 13:36:29,112] Trial 10 pruned. 
+[I 2025-03-17 14:03:35,091] Trial 11 finished with value: -185.10264240573207 and parameters: {'hidden_dim': 24, 'learning_rate': 0.0001, 'dropout': 0.5, 'num_layers': 5, 'weight_decay': 8.174599421343802e-06, 'lambda_energy': 0.07979242927744981}. Best is trial 11 with value: -185.10264240573207.
+[I 2025-03-17 14:28:13,358] Trial 12 finished with value: -169.96088949720692 and parameters: {'hidden_dim': 16, 'learning_rate': 0.0001, 'dropout': 0.5, 'num_layers': 4, 'weight_decay': 1.080242745137052e-05, 'lambda_energy': 0.07582862800247654}. Best is trial 11 with value: -185.10264240573207.
+[I 2025-03-17 14:54:33,460] Trial 13 finished with value: -278.9129773354952 and parameters: {'hidden_dim': 24, 'learning_rate': 0.0003, 'dropout': 0.5, 'num_layers': 6, 'weight_decay': 8.96232794830541e-06, 'lambda_energy': 0.09348747361751034}. Best is trial 13 with value: -278.9129773354952.
+[I 2025-03-17 14:54:38,951] Trial 14 pruned. 
+[I 2025-03-17 15:18:01,352] Trial 15 finished with value: -299.1217190725435 and parameters: {'hidden_dim': 64, 'learning_rate': 0.0003, 'dropout': 0.5, 'num_layers': 6, 'weight_decay': 1.294752659397715e-06, 'lambda_energy': 0.09694108344176462}. Best is trial 15 with value: -299.1217190725435.
+[I 2025-03-17 15:18:07,793] Trial 16 pruned. 
+[I 2025-03-17 15:18:14,138] Trial 17 pruned. 
+[I 2025-03-17 15:18:20,706] Trial 18 pruned. 
+[I 2025-03-17 15:18:26,356] Trial 19 pruned. 
+[I 2025-03-17 15:18:31,704] Trial 20 pruned. 
+[I 2025-03-17 15:43:07,035] Trial 21 finished with value: -236.55587051311332 and parameters: {'hidden_dim': 24, 'learning_rate': 0.0003, 'dropout': 0.5, 'num_layers': 5, 'weight_decay': 4.5368382158681365e-06, 'lambda_energy': 0.08627634660147329}. Best is trial 15 with value: -299.1217190725435.
+slurmstepd: error: *** JOB 57066367 ON cdr256 CANCELLED AT 2025-03-17T15:59:54 DUE TO TIME LIMIT ***
